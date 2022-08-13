@@ -1,4 +1,8 @@
 # Dynamic Merge UI
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bedbfc1c-8228-40dd-aa08-0cd6a9c6eead/deploy-status)](https://app.netlify.com/sites/thewozard-merge/deploys)
+[![lint](https://github.com/TheWozard/dynamic-merge-ui/actions/workflows/lint.yml/badge.svg)](https://github.com/TheWozard/dynamic-merge-ui/actions/workflows/lint.yml)
+[![test](https://github.com/TheWozard/dynamic-merge-ui/actions/workflows/test.yml/badge.svg)](https://github.com/TheWozard/dynamic-merge-ui/actions/workflows/test.yml)
+
 
 A UI for interacting with the a dynamic merge process.
 
