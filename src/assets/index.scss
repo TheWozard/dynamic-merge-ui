@@ -1,0 +1,77 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+@import "~@blueprintjs/popover2/lib/css/blueprint-popover2.css";
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: $pt-dark-app-background-color;
+  overflow: hidden;
+}
+
+#root {
+  height: 100vh;
+  > div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.margin-horizontal-spacing {
+  > :not(:last-child) {
+    margin-right: $pt-grid-size;
+  }
+}
+
+.margin-vertical-spacing {
+  > :not(:first-child) {
+    margin-top: $pt-grid-size;
+  }
+}
+
+.flex-split-body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  overflow-y: scroll;
+  padding-bottom: 50vh;
+}
+
+.center {
+  margin: $pt-grid-size auto;
+  max-width: 1000px;
+}
+
+.inline-list {
+  display: flex;
+}
+
+.thin-padding {
+  padding: $pt-grid-size;
+}
+
+.resize-vertical {
+  resize: vertical;
+  overflow:auto;
+}
+
+.popup-container {
+  position: relative;
+}
+
+.popup {
+  position: absolute;
+  bottom: 0;
+}
+
+.error-line {
+  border-bottom: 1px red solid;
+}
+
+.light-text {
+  opacity: 0.5;
+}
